@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Stage') {
             steps {
-                git 'https://github.com/pokilee10/Project_Devops_Frontend'
+                git branch: 'main', url: 'https://github.com/pokilee10/Project_Devops_Frontend.git'
             }
         }
     }
